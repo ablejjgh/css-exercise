@@ -1,0 +1,48 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    border-style: solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 80%;
+    text-align: center;
+}
+.main-content{
+    display: flex;
+    width: 80%;
+    margin-bottom: 10px;
+    overflow-x: hidden;
+}
+
+.sidebar{
+    border-style: solid;
+    width: 20%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    border-style: solid;
+    width: 80%;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.footer{
+    width: 80%;
+    border-style: solid;
+    text-align: center;
+    margin-bottom: 20px;
+}
