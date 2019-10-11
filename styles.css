@@ -19,17 +19,11 @@ body{
 }
 .main-content{
     display: flex;
-    flex-direction: column;
     width: 80%;
     margin-bottom: 10px;
     overflow-x: hidden;
 }
 
-.middle-content{
-    display: flex;
-    margin-bottom: 10px;
-    overflow-x: hidden;
-}
 
 .sidebar{
     border-style: solid;
@@ -43,12 +37,13 @@ body{
 
 .content{
     border-style: solid;
-    overflow-x: hidden;
     text-align: center;
+    overflow-x: hidden;
 }
 
 .footer{
     border-style: solid;
     text-align: center;
     margin-bottom: 20px;
+    width: 80%;
 }
