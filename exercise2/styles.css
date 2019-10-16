@@ -1,0 +1,94 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tittle-links{
+    height: 150px;
+}
+
+.box-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.box-container h1 {
+  font-size: larger;
+  color: black;
+}
+
+.box-container a {
+  color: black;
+}
+
+.square-containers {
+  width: 300px;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  padding: 15px 5px 15px 5px;
+  margin-bottom: 5px;
+}
+
+.square {
+  width: 70px;
+  height: 50px;
+  border: 1px solid black;
+  flex-grow: 1;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: black;
+  color: white;
+}
+
+.column-left {
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.middle-section {
+  display: flex;
+}
+
+.square-a {
+  width: 190px;
+  height: 40px;
+}
+
+.column-right {
+  width: 70px;
+}
+
+.square-b {
+  width: 90%;
+  height: 140px;
+}
+
+.square-containers-2{
+    display: block;
+}
+
+.row {
+  display: flex;
+}
+
+.square-c {
+  width: 20px;
+  height: 40px;
+}
+
+.square-d {
+  width: 160px;
+  height: 40px;
+}
