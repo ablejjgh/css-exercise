@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+}
+
 .wrapper {
   display: flex;
   width: 100%;
@@ -5,8 +13,8 @@
   justify-content: center;
 }
 
-.tittle-links{
-    height: 150px;
+.tittle-links {
+  height: 150px;
 }
 
 .box-container {
@@ -18,12 +26,8 @@
   margin-left: 20px;
 }
 
-.box-container h1 {
+.box-tittle {
   font-size: larger;
-  color: black;
-}
-
-.box-container a {
   color: black;
 }
 
@@ -62,21 +66,22 @@
 }
 
 .square-a {
-  width: 190px;
+  width: 205px;
   height: 40px;
+  margin-right: 0px;
 }
 
 .column-right {
-  width: 70px;
+  width: 60px;
 }
 
 .square-b {
   width: 90%;
-  height: 140px;
+  height: 120px;
 }
 
-.square-containers-2{
-    display: block;
+.square-containers-2 {
+  display: block;
 }
 
 .row {
